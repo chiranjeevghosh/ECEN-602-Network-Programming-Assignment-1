@@ -1,4 +1,5 @@
 
+
 # ECEN-602-Network-Programming-Assignment-1:
 
 This project implements a simple client-server implementation for a TCP echo service which does the following:
@@ -30,7 +31,11 @@ Makefile
 Usage:
 
 'make clean' to remove all previously created object files.
+
 'make server' to compile the server source code in the package.
+
 'make client' to compile the client source code in the package.
+
 ./echos Port#
+
 ./echo Port# Server_IP_Address
