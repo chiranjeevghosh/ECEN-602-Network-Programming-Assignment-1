@@ -1,5 +1,3 @@
-
-
 # ECEN-602-Network-Programming-Assignment-1:
 
 This project implements a simple client-server implementation for a TCP echo service which does the following:
@@ -24,8 +22,11 @@ exit.
 Package content:
 
 Server.c
+
 Client.c
+
 utils.h
+
 Makefile
 
 Usage:
