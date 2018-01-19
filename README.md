@@ -20,23 +20,14 @@ process’ read() command will return with a 0. The child process should then
 exit.
 
 Package content:
-
-Server.c
-
-Client.c
-
-utils.h
-
-Makefile
+1. Server.c
+2. Client.c
+3. utils.h
+4. Makefile
 
 Usage:
-
-'make clean' to remove all previously created object files.
-
-'make server' to compile the server source code in the package.
-
-'make client' to compile the client source code in the package.
-
-./echos Port#
-
-./echo Port# Server_IP_Address
+1. 'make clean' to remove all previously created object files.
+2. 'make server' to compile the server source code in the package.
+3. 'make client' to compile the client source code in the package.
+4. ./echos Port#
+5. ./echo Port# Server_IP_Address
